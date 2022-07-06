@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(217, 12%, 63%);
+    --cinza-medio: hsl(216, 12%, 54%);
+    --azul: hsl(213, 19%, 18%);
+    --azul-medio: hsl(212, 21%, 26%);
+    --azul-escuro: hsl(216, 12%, 8%);
+    --laranja: hsl(25, 97%, 53%);
+
+    --fonte: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: var(--azul-escuro);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    background-color: var(--azul);
+    font-family: var(--fonte);
+    padding: 1.5rem;
+
+    width: max-content;
+}
+
+
+.agradecimento {
+    display: none;
+}
+
+.star__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--azul-medio);
+    border-radius: 50%;
+
+    height: 2.4rem;
+    width: 2.4rem;
+
+}
+
+.star {
+    background-image: url(/images/icon-star.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.titulo {
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.texto {
+    color: var(--cinza-claro);
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.notas__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio {
+    display: none;
+}
+
+label {
+    background-color: var(--azul-medio);
+    border-radius: 50%;
+    color: var(--cinza-medio);
+    display: inline-block;
+    line-height: 2.7rem;
+    font-family: var(--fonte);
+    font-size: 0.8rem;
+    margin: 1.4rem 0;
+    text-align: center;
+
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+label:hover {
+    background-color: var(--cinza-claro);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+
+.submit {
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 20px;
+    color: var(--branco);
+    font-family: var(--fonte);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    height: 2.5rem;
+    width: 100%;
+}
