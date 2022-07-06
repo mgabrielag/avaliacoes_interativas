@@ -53,7 +53,7 @@ body {
 }
 
 .star {
-    background-image: url(/images/icon-star.svg);
+    background-image: url(../images/icon-star.svg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -78,31 +78,6 @@ body {
 .notas__container {
     display: flex;
     justify-content: space-between;
-}
-
-.radio {
-    display: none;
-}
-
-label {
-    background-color: var(--azul-medio);
-    border-radius: 50%;
-    color: var(--cinza-medio);
-    display: inline-block;
-    line-height: 2.7rem;
-    font-family: var(--fonte);
-    font-size: 0.8rem;
-    margin: 1.4rem 0;
-    text-align: center;
-
-    height: 2.4rem;
-    width: 2.4rem;
-}
-
-label:hover {
-    background-color: var(--cinza-claro);
-    color: var(--branco);
-    cursor: pointer;
 }
 
 
