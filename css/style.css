@@ -80,8 +80,32 @@ body {
     justify-content: space-between;
 }
 
+input[type=radio] {
+    display: none;
+}
 
 
+.notas {
+    background-color: var(--azul-medio);
+    border-radius: 50%;
+    color: var(--cinza-claro);
+    cursor: pointer;
+    font-size: 0.8rem;
+    line-height: 2.7rem;
+    height: 2.7rem;
+    margin: 1rem 0;
+    text-align: center;
+    width: 2.7rem;
+}
+
+.notas:hover {
+    background-color: var(--cinza-claro);
+    color: var(--branco);
+}
+
+.notas:active {
+    background-color: var(--laranja);
+}
 
 .submit {
     background-color: var(--laranja);
