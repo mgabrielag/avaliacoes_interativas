@@ -85,7 +85,7 @@ input[type=radio] {
 }
 
 
-.notas {
+.label-notas {
     background-color: var(--azul-medio);
     border-radius: 50%;
     color: var(--cinza-claro);
@@ -98,13 +98,18 @@ input[type=radio] {
     width: 2.7rem;
 }
 
-.notas:hover {
+.label-notas:hover {
     background-color: var(--cinza-claro);
     color: var(--branco);
 }
 
-.notas:active {
+.label-notas:active {
     background-color: var(--laranja);
+}
+
+.label-checked {
+    background-color: var(--laranja);
+    color: var(--branco);
 }
 
 .submit {
