@@ -107,10 +107,12 @@ input[type=radio] {
     background-color: var(--laranja);
 }
 
-.label-checked {
+.label-checked,
+.label-checked:hover {
     background-color: var(--laranja);
     color: var(--branco);
 }
+
 
 .submit {
     background-color: var(--laranja);
